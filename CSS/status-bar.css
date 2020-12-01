@@ -1,0 +1,26 @@
+.status-bar {
+  display: flex;
+  /*justify-content: space-between; */
+  /*이렇게 하면 가운데 있는 콘텐츠가 정 가운데 안간다 양옆 콘텐츠 길이가 달라서 */
+  justify-content: center;
+  padding: 5px, 3px;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child span {
+  /*글자랑 와이파이 간격 주는 코드*/
+  margin-right: 5px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
