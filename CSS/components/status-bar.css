@@ -1,4 +1,8 @@
 .status-bar {
+  /*position: fixed;
+  top: 0;
+  width: 100%;
+  */
   display: flex;
   /*justify-content: space-between; */
   /*이렇게 하면 가운데 있는 콘텐츠가 정 가운데 안간다 양옆 콘텐츠 길이가 달라서 */
