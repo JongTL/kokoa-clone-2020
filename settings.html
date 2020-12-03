@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar"> <!--상태바 - 3열로 되어있음-->
+        <div class="status-bar__column"> <!--이런식 부모자식 순으로 클래스 이름 쓰는게 조다. status 바의 column-->
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <!-- Wifi Icon 추가해야함-->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+            <!-- 배터리 icon-->
+            <!-- lightning icon-->
+        </div>
+    </div>
+
+
+
+    <main class="main-screen">
+
+    </main>
+
+    
+
+ <!-- nav>ul>li*4>a 이런식으로 한번에 쓸 수 있음-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">
+                    1
+                </span>
+                <i class="far fa-comment fa-2x"></i>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="badge-dot"> 1</span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+   
+
+
+
+
+    <script src="https://kit.fontawesome.com/d1617d49b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
