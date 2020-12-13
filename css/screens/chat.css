@@ -12,7 +12,7 @@
   background-color: #abc1d1;
 }
 #chat-screen .status-bar {
-  z-index: 2; /* CSS 에서 레이어 순서 처럼 쓰이는 것 작을수록 앞에 있는 순서*/
+  z-index: 2; /* CSS 에서 레이어 순서 처럼 쓰이는 것 클수록 앞에 있는 순서*/
 }
 
 #chat-screen .alt-header {
